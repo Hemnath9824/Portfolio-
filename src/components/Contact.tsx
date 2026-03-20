@@ -32,10 +32,10 @@ export default function Contact({ darkMode }: ContactProps) {
       // EmailJS configuration - Replace these with your actual EmailJS credentials
       // Sign up at https://www.emailjs.com/ to get your credentials
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_8sewmht', // Replace with your EmailJS service ID
+        'template_3ywf19b', // Replace with your EmailJS template ID
         formRef.current!,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'gkQC-Tb9G0mFRh0mV' // Replace with your EmailJS public key
       );
       
       setStatus('success');
