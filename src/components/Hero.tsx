@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profilePic from "../assets/profile.jpg";
 
 interface HeroProps {
   darkMode: boolean;
@@ -176,7 +177,7 @@ export default function Hero({ darkMode }: HeroProps) {
                 }`}
               >
                 <img
-                  src="/profile.jpg"
+                  src={profilePic}
                   alt="Hemanath - Frontend Developer"
                   className="w-full h-full object-cover"
                   onError={(e) => {
