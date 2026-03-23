@@ -155,7 +155,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
 
                 {/* CTA Button */}
                 <motion.a
-                  href="https://wandersphere-travel.vercel.app/"
+                  href="https://hemnath9824.github.io/Wandershpere/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(59, 130, 246, 0.3)' }}
