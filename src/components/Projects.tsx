@@ -278,7 +278,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
 
                 {/* CTA Button */}
                 <motion.a
-                  href="https://your-coffee-area-link.com"
+                  href="https://hemnath9824.github.io/Coffee-Area/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(245, 158, 11, 0.3)' }}
